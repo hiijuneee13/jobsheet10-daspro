@@ -10,6 +10,7 @@ public class Bioskop25 {
         penonton[2][0] = "Eka";
         penonton[2][1] = "Farhan";
         penonton[3][0] = "Gisel";
+        penonton[3][1] = "Hana";
 
         for (int i = 0; i < penonton.length; i++) {
             System.out.println("Penonton pada baris ke-" + (i+1) + " : " 
