@@ -11,10 +11,12 @@ public class Bioskop25 {
         penonton[2][1] = "Farhan";
         penonton[3][0] = "Gisel";
 
-        System.out.printf("%s \t %s%n", penonton[0][0], penonton[0][1]);
-        System.out.printf("%s \t %s%n", penonton[1][0], penonton[1][1]);
-        System.out.printf("%s \t %s%n", penonton[2][0], penonton[2][1]);
-        System.out.printf("%s \t %s%n", penonton[3][0], penonton[3][1]);
+        System.out.println(penonton.length);      // jumlah baris
+        System.out.println(penonton[0].length);   // panjang kolom baris ke-0
+        System.out.println(penonton[1].length);
+        System.out.println(penonton[2].length);
+        System.out.println(penonton[3].length);
+
     }
     
 }
