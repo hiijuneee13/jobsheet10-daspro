@@ -4,12 +4,12 @@ public class BioskopWithScanner25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int baris = 4, kolom = 2;
-        String[][] penonton = new String[baris][kolom];
+        String[][] penonton = new String[4][2];
 
         while (true) {
             System.out.println("\n1. Input data penonton");
             System.out.println("2. Tampilkan daftar penonton");
-            System.out.println("3. Keluar");
+            System.out.println("3. Exit");
             System.out.print("Pilih menu: ");
             String menu = sc.nextLine();
             if (menu.equals("1")) {
